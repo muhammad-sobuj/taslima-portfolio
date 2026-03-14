@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>Muhammad Sobuj Hossain | Portfolio</title>
-        <meta name="description" content="MERN Stack Developer and Front-End Developer" />
-        <meta name="keywords" content="MERN Stack Developer and Front-End Developer, Portfolio" />
+        <title>Taslima Khatun | Portfolio</title>
+        <meta name="description" content="MERN Stack Developer & Content Creator" />
+        <meta name="keywords" content="Content Creator, Portfolio" />
       </Helmet>
       <Layout>
         <Routes>

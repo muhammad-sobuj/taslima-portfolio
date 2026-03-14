@@ -19,7 +19,7 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import cvFile from "../assets/Sobuj_CV.pdf";
-import heroImg from "../assets/hero2.png";
+import heroImg from "../assets/art.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
@@ -300,14 +300,14 @@ const Home = () => {
                 whileInView={{ opacity: [0, 1], y: [20, 0] }}
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
-                Muhammad Sobuj Hossain
+                Taslima Khatun
               </motion.p>
               <motion.h1
                 className="text-5xl lg:text-6xl font-bold font-display text-primary leading-tight mt-2 relative"
                 whileInView={{ opacity: [0, 1], y: [30, 0] }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                MERN Stack Developer
+            MERN Stack Developer & Content Creator
                 <Sparkles
                   className="sparkle absolute -top-2 -right-2 text-primary/60"
                   size={20}
@@ -473,7 +473,7 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <motion.img
-                alt="Muhammad Sobuj Hossain - MERN Stack Developer"
+                alt="Taslima Khatun - Content Creator"
                 className="h-[350px] lg:h-[550px] object-contain object-bottom filter grayscale contrast-110 drop-shadow-2xl"
                 src={heroImg}
                 style={{

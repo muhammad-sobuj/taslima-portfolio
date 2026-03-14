@@ -67,7 +67,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "E-com Analytics Dashboard",
-      category: "MERN Web Developer",
+      category: "Content Creator",
       description:
         "A data-rich dashboard design for e-commerce store owners to track sales and inventory.",
       image:

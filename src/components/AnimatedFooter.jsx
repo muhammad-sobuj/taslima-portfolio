@@ -145,7 +145,7 @@ const AnimatedFooter = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-              Muhammad <span className="text-primary">Sobuj</span>
+              Taslima <span className="text-primary">Khatun</span>
               <Sparkles className="text-orange-500" size={24} />
             </h2>
             <p className="mb-6 leading-relaxed">
@@ -221,16 +221,16 @@ const AnimatedFooter = () => {
             <div className="flex items-center gap-3">
               <Mail size={20} className="text-primary" />
               <a
-                href="mailto:muhammadsobuj20@gmail.com"
+                href="mailto:taslima16123@gmail.com"
                 className="hover:text-primary"
               >
-                muhammadsobuj20@gmail.com
+                taslima16123@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-3">
               <Phone size={20} className="text-primary" />
               <a href="tel:+1234567890" className="hover:text-primary">
-                +8801714799303
+                +8801234567890
               </a>
             </div>
             <div className="flex items-center gap-3">
@@ -281,7 +281,7 @@ const AnimatedFooter = () => {
               <p>
                 © {currentYear}{" "}
                 <span className="text-primary font-semibold">
-                  Muhammad Sobuj Hossain
+                 Taslima Khatun
                 </span>
                 . All rights reserved.
               </p>

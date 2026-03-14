@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import cvFile from "../assets/Sobuj_CV.pdf";
-import heroImg from "../assets/hero2.png";
+import heroImg from "../assets/art.jpg";
 import {
   GraduationCap,
   Briefcase,
@@ -406,7 +406,7 @@ const About = () => {
               transition={{ duration: 0.3 }}
             >
               <motion.img
-                alt="Muhammad Sobuj Hossain "
+                alt="Taslima Khatun "
                 className="w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-500"
                 src={heroImg}
                 whileHover={{ scale: 1.1 }}
@@ -420,7 +420,7 @@ const About = () => {
                 whileHover={{ y: 0 }}
               >
                 <div className="text-white">
-                  <h3 className="font-bold text-lg">Muhammad Sobuj Hossain</h3>
+                  <h3 className="font-bold text-lg">Taslima Khatun</h3>
                   <p className="text-sm opacity-90">MERN Stack Developer</p>
                 </div>
               </motion.div>
@@ -442,7 +442,7 @@ const About = () => {
               className="text-text-muted-light dark:text-text-muted-dark text-lg leading-relaxed"
               variants={itemVariants}
             >
-              I Muhammad Sobuj Hossain, a passionate creative specializing in
+              I Taslima Khatun, a passionate creative specializing in
               crafting intuitive and dynamic user experiences. With over 1 years
               of industry experience, I bridge the gap between design and
               technology.
@@ -466,7 +466,7 @@ const About = () => {
                 {
                   icon: Mail,
                   label: "Email",
-                  value: "muhammadsobuj20@gmail.com",
+                  value: "tslima16123@gmail.com",
                 },
                 {
                   icon: MapPin,

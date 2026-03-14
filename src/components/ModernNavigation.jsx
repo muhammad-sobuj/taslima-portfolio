@@ -10,7 +10,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Sparkles, Zap, Star } from "lucide-react";
-import logoSobuj from "../assets/logo-sobuj.png";
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);
 
@@ -364,7 +363,7 @@ const ModernNavigation = () => {
         >
           <motion.div className="text-2xl font-bold font-display tracking-wide relative">
             <span className="text-primary relative inline-block">
-              <img className="w-10" src={logoSobuj} alt="" />
+               TASLIMA
               {/* Floating sparkles around logo */}
               {[...Array(4)].map((_, i) => (
                 <motion.div
