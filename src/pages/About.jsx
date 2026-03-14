@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import cvFile from "../assets/Sobuj_CV.pdf";
+// import cvFile from "../assets/Sobuj_CV.pdf";
 import heroImg from "../assets/art.jpg";
 import {
   GraduationCap,
@@ -527,8 +527,8 @@ const About = () => {
                   <span>
                     <a
                       className="relative z-10 flex items-center gap-2"
-                      href={cvFile}
-                      download="sobujCV.pdf"
+                      // href={cvFile}
+                      // download="sobujCV.pdf"
                     >
                       <Download size={16} />
                       Download CV
